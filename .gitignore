@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Model checkpoints & large binaries
+*.pth
+*.pt
+*.bin
+*.h5
+*.onnx
+*.pkl
+
+# Tokenizer models (large)
+*.model
+
+# Large data files
+jokes.txt
+submission.csv
+data.txt.zip
+
+# Archives
+hw3.zip
+shw-01-mlp-full.zip
+
+# Cloned course repositories (not our code)
+intro-to-dl-hse/
+xiyori intro-to-dl-hse 2025-2026 homeworks-small-shw-03-rnn/
+
+# Nested git repos
+bhw2-translation/.git/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+*.iml
